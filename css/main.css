@@ -1,0 +1,36 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;   
+}
+
+h1 {
+   font-size: 80px;
+   margin-bottom: 30px;
+}
+
+.timer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+
+.value {
+   font-size: 64px;
+}
+
+.label {
+   font-size: 32px;
+}
